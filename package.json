@@ -24,8 +24,6 @@
     "shell",
     "scripts",
     "portable",
-    "electron",
-    "express",
     "pwa"
   ],
   "private": true,
@@ -52,5 +50,8 @@
     "papaparse": "^4.6.0",
     "pug": "^2.0.4",
     "shelljs": "^0.8.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
